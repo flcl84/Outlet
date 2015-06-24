@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/OutletActionBar</item>
+        <item name="actionBarStyle">@style/OutletActionBar</item>
+    </style>
+
+    <style name="OutletActionBar"
+           parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/drawer_top_bg</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_drawer</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/drawer_top_bg</item>
+        <item name="homeAsUpIndicator">@drawable/ic_drawer</item>
+    </style>
+</resources>
